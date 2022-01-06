@@ -71,9 +71,10 @@ border-radius: 20px;
     display: flex;
    padding-right: 40px;
    padding-top: 10px;
-   background-image: url(./images/dream-bg.png);
+   background-image: url(./images/shape-1.png);
    background-repeat: no-repeat;
    background-position: left;
+   background-size:200px 200px;
    margin:70px 60px;
 }
 .second-half-width{
