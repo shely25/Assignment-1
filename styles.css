@@ -23,16 +23,16 @@ h1{
     border-radius: 5px;
 }
 .half-width{
-   width: 50%;
-   padding-left: 10px;
+   width: 40%;
+   padding:5%;
 }
 .first{
     display: flex;
-   margin-top: 100px;
-   margin-left: 200px;
+   margin-top: 20px;
+   margin-left: 150px;
 }
 .half-width img{
-    width: 60%;
+    width: 70%;
 }
 .items img{
     height:100px;
@@ -49,8 +49,8 @@ border-radius: 20px;
 }
 .h2-heading{
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     font-size: 40px;
 }
 #first-item{
