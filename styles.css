@@ -11,7 +11,7 @@ h1{
 }
 .heading{
     border-left: 5px solid red;
-    border-radius: 5px ;
+    border-radius: 5px 5px ;
     padding-left: 10px;
 
 }
@@ -24,11 +24,12 @@ h1{
 }
 .half-width{
    width: 50%;
-   padding-left: 60px;
+   padding-left: 10px;
 }
 .first{
     display: flex;
    margin-top: 100px;
+   margin-left: 200px;
 }
 .half-width img{
     width: 60%;
@@ -39,7 +40,6 @@ h1{
     margin-top: 0;
 }
 .items{
-margin-left: 40px;
 padding-left: 20px;
 padding-right: 20px;
 border-radius: 20px;
@@ -54,16 +54,35 @@ border-radius: 20px;
     font-size: 40px;
 }
 #first-item{
-    background-image: linear-gradient(rgba(2, 180, 250, 0.336),white);
+    background-color: rgba(135, 207, 235, 0.342);
+    margin-left: 100px;
 }
 #second-item{
-    background-image: linear-gradient(pink,white);
+    background-image: linear-gradient(pink,rgba(255, 192, 203, 0.521));
+    margin-left: 20px;
 }
 #third-item{
-    background-image: linear-gradient(rgba(255, 192, 203, 0.281),rgb(255, 255, 255));
+    background-image: linear-gradient(rgba(255, 192, 203, 0.596),rgba(255, 192, 203, 0.281));
+    margin-left: 20px;
+    margin-right: 100px;
 }
 .third{
     display: flex;
-    margin-top: 80px;
    padding-right: 40px;
+   background-image: url(./images/dream-bg.png);
+   background-repeat: no-repeat;
+   background-position: left;
+   margin:20px 60px;
+}
+.second-half-width{
+    width: 50%;
+    padding-left:0;
+}
+.second-half-width img{
+    width: 50%;
+    margin-left: 100px;
+}
+.forth{
+    display: flex;
+    margin: 30px 100px;
 }
