@@ -4,14 +4,14 @@ body{
     font-size: medium;
 }
 .color{
-    color: orange;
+    color: rgba(255, 166, 0, 0.582);
 }
 h1{
     font-size: 45px;
 }
 .heading{
-    border-left: 5px solid red;
-    border-radius: 5px 5px ;
+    border-left: 4px solid red;
+     border-radius: 5px;
     padding-left: 10px;
 
 }
